@@ -1,0 +1,55 @@
+.vidBg{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -40%;
+    opacity: .5;
+}
+
+.youtube{
+    display: block;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    width: 60%;
+    left:20%;
+    height: 500px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 200;
+}
+.demoTitle {
+    position: relative;
+    display: block;
+    top: 20px;
+    margin: 350px 0;
+
+}
+@media screen and (max-width: 720px) {
+    
+    .youtube{
+        
+        height: 300px;
+        
+    }
+
+    .demoTitle {
+        
+        top: 20px;
+        margin: 150px 0;
+    
+    }
+}
+@media screen and (max-width: 530px) {
+    .demoTitle {
+        
+        top: 20px;
+        margin: 150px 0;
+    
+    }
+    .youtube{
+        
+        height: 200px;
+        
+    }
+}
+

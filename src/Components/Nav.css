@@ -1,0 +1,53 @@
+
+.navbar {
+    position: sticky;
+    top:0;
+    z-index: 10000;
+    text-align: right;
+}
+.navbar a{
+    
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    right: 10%;
+    top: 30px;
+    font-size: 1em;
+    margin: 5px;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    opacity: 1;
+    
+}
+
+@media screen and (max-width: 720px) {
+    .navbar{
+        top: -25px;
+        text-align: center;
+    }
+    .navbar a{
+        width: 100px;
+        right: 0;
+        margin: 3px;
+    padding:5px;
+    background-color: rgb(20 , 20, 20);
+    border-radius: 10px;
+    }
+    .navbar a:hover{
+        background-color: rgb(50 , 50, 50);
+    border-radius: 10px;
+    }
+}
+@media screen and (min-width: 2500px) {
+
+    .navbar a{
+        font-size: 1.7em;
+    }
+}

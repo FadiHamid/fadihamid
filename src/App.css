@@ -1,0 +1,16 @@
+body{
+margin: 0;
+  background-color: rgb(7, 9, 9);
+  /* background-color: teal; */
+}
+.main{
+  display: block;
+}
+.sectionTitle{
+  font-size: 2em;
+ font-family: 'Noto Sans JP', sans-serif;
+  color:white;
+  
+  text-align: center;
+  z-index: 500;
+}
